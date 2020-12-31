@@ -11,6 +11,12 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "Less Compile",
+      "type": "shell",
+      "command": "lessc css/style.less styles.css",
+      "group": "build"
     }
   ]
 }
