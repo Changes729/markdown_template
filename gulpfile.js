@@ -3,7 +3,10 @@ var markdown = require("gulp-markdown-github-style");
 var less = require("gulp-less");
 
 gulp.task("markdown", function () {
-  return gulp.src("doc/**/*.md").pipe(markdown()).pipe(gulp.dest("dist/html/"));
+  return gulp
+    .src("doc/**/*.md")
+    .pipe(markdown({ xhtmlOut: true, html: true, typographer: true }))
+    .pipe(gulp.dest("dist/html/"));
 });
 
 gulp.task("less", function (cb) {
