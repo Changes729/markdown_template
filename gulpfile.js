@@ -1,5 +1,5 @@
 var gulp = require("gulp");
-var markdown = require("gulp-markdown-it");
+var markdown = require("gulp-markdown-github-style");
 var less = require("gulp-less");
 
 gulp.task("markdown", function () {

@@ -3,5 +3,8 @@
     "gulp": "^4.0.2",
     "gulp-less": "^4.0.1",
     "gulp-markdown-it": "^0.1.1"
+  },
+  "devDependencies": {
+    "gulp-markdown-github-style": "^1.1.1"
   }
 }
